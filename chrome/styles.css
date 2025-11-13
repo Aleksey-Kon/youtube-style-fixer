@@ -1,0 +1,114 @@
+
+.ytSearchboxComponentInnerSearchIcon {
+  display: none !important;
+}
+.ytSpecIconShapeHost:not(.yt-icon){
+    width: 80% !important;
+    height: 80% !important;
+}
+
+.ytp-chrome-controls .ytp-button svg {
+  width: 17px !important;
+  height: 17px !important;
+  display: block;              /* убирает лишние отступы снизу */
+  margin: auto;                /* центрирует по вертикали */
+}
+
+/* Для надёжности фиксируем внутренний контейнер иконки */
+.ytp-chrome-controls .ytp-button > div[class*="-icon"] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.ytp-fullscreen-grid-expand-button .ytp-button{
+    display: none !important;
+}
+.ytp-probably-keyboard-focus .ytp-button:focus {
+    -webkit-box-shadow: inset 0 0 0 2px transparent !important;
+    box-shadow: inset 0 0 0 2px transparent !important;
+}
+
+.ytp-delhi-modern-icons .ytp-chrome-controls .ytp-button:not(.ytp-subtitles-button) svg {
+    padding: calc(var(--yt-delhi-pill-top-height, 20px) + 4px) 10px !important;
+}
+
+.ytp-delhi-modern .ytp-button,
+.ytp-delhi-modern .ytp-chrome-controls .ytp-right-controls,
+.ytp-delhi-modern .ytp-time-wrapper:not(.ytp-miniplayer-ui *),
+.ytp-volume-area {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background: transparent !important;
+    text-shadow: none !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.ytp-volume-area {
+    padding-right: 8px !important;
+}
+.ytp-time-display .ytp-time-wrapper.ytp-time-wrapper-delhi {
+    padding-left: 11px !important;
+    padding-right: 10px !important;
+}
+
+.ytp-fullscreen-quick-actions {
+    display: none !important;
+}
+.ytd-masthead:not(.style-scope) {
+    background-color: inherit !important;
+    margin-left: 0 !important;
+}
+#voice-search-button {
+    background-color: inherit !important;
+    margin-left: 0 !important;
+}
+
+.ytp-settings-menu {
+    max-width: 45% !important;
+}
+
+.ytp-menuitem:not(.ytp-menuitem-with-footer) {
+    height: 40px !important;
+}
+.ytSearchboxComponentInputBoxHasFocus {
+    margin-left: 0 !important;
+    padding-left: 3% !important;
+   
+}
+
+.ytp-overlay-inline-container {
+    display: none !important;
+}
+
+.html5-main-video {
+    position: relative;
+}
+.ytp-bezel-icon svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+.ytp-delhi-modern .ytp-bezel {
+    width: 54px !important;
+    height: 54px !important;
+}
+#right-controls.ytd-shorts-player-controls{
+    background-color: transparent !important;
+}
+.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--overlay-dark.yt-spec-button-shape-next--size-l.yt-spec-button-shape-next--icon-button {
+    background-color: transparent !important;
+}
+.ytdDesktopShortsVolumeControlsBackgroundScrim {
+    background-color: transparent !important;
+}
+.ytwReelActionBarViewModelHost>* {
+    margin-top: 10px !important;
+}
+.ytwReelActionBarViewModelHost .yt-spec-button-shape-next{
+    width: 40px !important;
+    height: 40px !important;
+}
+.ytwReelActionBarViewModelHost .ytSpecButtonViewModelHost {
+    display: block;
+}
